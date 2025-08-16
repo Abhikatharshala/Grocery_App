@@ -132,7 +132,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/fresh-vegetables-frame-wooden-table-199064516.jpg"
+              src="https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg?w=400&h=300&c=crop"
               alt="Vegetables"
             />
             <span>Vegetables</span>
@@ -158,7 +158,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/gardening-tools-seedlings-pots-white-background-39375741.jpg"
+              src="https://www.planetnatural.com/wp-content/uploads/2014/02/seedling-garden-920x518.jpg"
               alt="Plants & Seeds"
             />
             <span>Plants & Seeds</span>
@@ -171,7 +171,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/colorful-flower-bouquet-white-background-33853639.jpg"
+              src="https://cakeflowerngifts.com/wp-content/uploads/2024/06/10-pink-red-roses-4-white-Gerbera-flower-bouquet-basket-price-near-me-delivery.jpg"
               alt="Flowers & Bouquets"
             />
             <span>Flowers & Bouquets</span>
@@ -184,7 +184,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/tablet-pc-isolated-white-background-30308926.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl1HYOkeVJTzar7yfzm417Bt3JJVBHcHz6zA&s"
               alt="Tablets"
             />
             <span>Tablets</span>
@@ -197,7 +197,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/wireless-headphones-isolated-white-background-40103908.jpg"
+              src="https://soniclamb.com/cdn/shop/files/307A3067_edited_2k.png?v=1718481850&width=1946"
               alt="Headphones"
             />
             <span>Headphones</span>
@@ -210,7 +210,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/bluetooth-speaker-white-background-46632390.jpg"
+              src="https://i.pcmag.com/imagery/reviews/03V8y6C5wPv1ZV44gbJFZtQ-8..v1698156812.jpg"
               alt="Speakers"
             />
             <span>Speakers</span>
@@ -223,7 +223,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/smart-watch-isolated-white-background-47026856.jpg"
+              src="https://zebronics.com/cdn/shop/products/zeb-iconic-lite-pic3.jpg?v=1672482509"
               alt="Smart Watches"
             />
             <span>Smart Watches</span>
@@ -236,7 +236,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/kitchen-appliances-set-isolated-white-background-126668634.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBaNopIcQZFWF4xiXTXvLyXf8xdBmOouJhwg&s"
               alt="Kitchen Appliances"
             />
             <span>Kitchen Appliances</span>
@@ -249,7 +249,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/home-appliances-set-isolated-white-background-130735158.jpg"
+              src="https://media.istockphoto.com/id/1196974664/photo/set-of-home-kitchen-appliances-in-the-room-on-the-wall-background.jpg?s=612x612&w=0&k=20&c=dUSAMg-LUh6j-4437kz30w8k7KgJiR8yrTTXhGiFh0s="
               alt="Home Appliances"
             />
             <span>Home Appliances</span>
@@ -262,7 +262,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/colorful-toy-cubes-white-background-21533572.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5lRAyzkCdh0HJbEcW1RSdRXu136XR0oigrQ&s"
               alt="Toys"
             />
             <span>Toys</span>
@@ -275,7 +275,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/jewelry-white-background-14092501.jpg"
+              src="https://www.littlefingersindia.com/wp-content/uploads/2022/07/LFbridalset241.jpg"
               alt="Jewellery"
             />
             <span>Jewellery</span>
@@ -288,7 +288,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/fashion-accessories-white-background-28297100.jpg"
+              src="https://media.istockphoto.com/id/531786318/photo/top-view-of-female-fashion-accessories.jpg?s=170667a&w=is&k=20&c=I5C3OqBG1PSFgI2CHZR_C443aR42S08FhTZQlmwomQg="
               alt="Accessories"
             />
             <span>Accessories</span>
@@ -301,7 +301,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/assorted-indian-spices-white-background-34825299.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5uW39U6NJ0DvtaruADZIehXGqH4xYOfLq6g&s"
               alt="Spices"
             />
             <span>Spices</span>
@@ -314,7 +314,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/dry-fruits-white-background-23051538.jpg"
+              src="https://www.vlccinstitute.com/sites/default/files/2022-07/Dry-Fruits-Nuts-Seeds.jpg"
               alt="Dry Fruits"
             />
             <span>Dry Fruits</span>
@@ -327,7 +327,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/assorted-chocolates-white-background-19510936.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNrSCH8XvpCGRm5pMtOmAvYqN8FXxxzq-sbw&s"
               alt="Chocolates"
             />
             <span>Chocolates</span>
@@ -340,7 +340,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/eyeglasses-white-background-26472722.jpg"
+              src="https://www.shutterstock.com/image-photo/trendy-sunglasses-different-design-eyeglasses-260nw-2410897629.jpg"
               alt="Eyewear"
             />
             <span>Eyewear</span>
@@ -353,7 +353,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/wrist-watch-isolated-white-background-36727100.jpg"
+              src="https://www.helioswatchstore.com/media/Featured-blog3.jpg"
               alt="Watches"
             />
             <span>Watches</span>
@@ -366,7 +366,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/ice-cream-cone-white-background-31253107.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjsO76hL4tNLp6ZN_j2m-CyGSpXmf88nzO0Q&s"
               alt="Ice Cream"
             />
             <span>Ice Cream</span>
@@ -379,7 +379,7 @@ alert(`${prod.name},Added to your cart`)
           >
             <img
               className="image-link"
-              src="https://thumbs.dreamstime.com/b/assorted-snacks-white-background-16884119.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_-_5sElYZjSup9W4EIs-JbhNXgGxj0Uq-UA&s"
               alt="Snacks"
             />
             <span>Snacks</span>

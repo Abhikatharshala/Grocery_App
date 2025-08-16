@@ -76,10 +76,10 @@
   right: 5px;
 }
 
-/* Fixed Product Grid for Mobile */
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)); /* Crucial fix */
+  grid-template-columns: repeat(2, minmax(0, 1fr)); 
   gap: 12px;
   padding: 10px;
   margin-top: 10px;
@@ -93,9 +93,11 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   padding: 10px;
   text-align: center;
-  min-width: 0; /* Fixes flexbox overflow */
-  overflow: hidden; /* Prevents content from breaking layout */
+  min-width: 0;
+  overflow: hidden; 
 }
+
+
 
 .product-img {
   width: 100%;
@@ -175,6 +177,31 @@
   text-align: center;
   padding: 0 15px;
 }
+
+/* Phones only (max-width: 599px) */
+
+@media (max-width: 599px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;   /* centers the card */
+    padding: 10px;
+  }
+
+  .product-card {
+    width: 90%;              
+    max-width: 350px;        
+    padding: 12px;
+  }
+
+  .product-img {
+    height: 120px;
+  }
+
+  .product-name {
+    font-size: 14px;
+  }
+}
+
 
 /* Tablet Styles (min-width: 600px) */
 @media (min-width: 600px) {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar/Navbar'
 import Slides from './Slides/Slides'
 import Category from './Category/Category'
-import "./Customerdashboard.css"
+import "./CustomerDashboard.css"
 import Footer from './Footer/Footer'
 import { useLocation } from 'react-router-dom'
 

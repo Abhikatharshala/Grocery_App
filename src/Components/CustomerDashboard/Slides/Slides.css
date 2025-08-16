@@ -1,0 +1,52 @@
+/* .slides {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+ 
+  justify-content: center;
+}
+
+.slides img {
+  width: 80%;
+  height: 600px;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Optional: if you want fixed height for large screens */
+.slides {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.slides img {
+  width: 90%;
+  height: 600px; /* Default for large screens */
+  border-radius: 12px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .slides img {
+    height: 400px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .slides img {
+    width: 100%;
+    height: 200px;
+  }
+}

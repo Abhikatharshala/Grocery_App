@@ -1,0 +1,90 @@
+.orders-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #f3f4f6, #e0f7fa);
+  padding: 20px;
+}
+
+.order-card {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+}
+
+.thank-you {
+  color: #16a34a;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.order-id {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.order-id span {
+  font-weight: bold;
+  color: #000;
+}
+
+.order-success {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.delivery-time {
+  font-size: 18px;
+  color: #4f46e5;
+}
+.go-home-btn {
+  margin-top: 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.go-home-btn:hover {
+  background-color: #4338ca;
+  transform: scale(1.03);
+}
+
+.go-home-btn:active {
+  transform: scale(0.98);
+}
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .order-card {
+    padding: 25px 15px;
+  }
+
+  .thank-you {
+    font-size: 24px;
+  }
+
+  .order-success,
+  .delivery-time {
+    font-size: 16px;
+  }
+}

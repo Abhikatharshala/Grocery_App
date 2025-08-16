@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Setup */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Login Page Wrapper */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Container */
+.form {
+  width: 500px;
+  height: 520px;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Fieldset and Legend */
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Inputs & Select */
+input,
+select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s border;
+}
+
+input:focus,
+select:focus {
+  border-color: #00a86b;
+}
+
+/* Submit Button */
+.login-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #00a86b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: #008c5c;
+}
+.SignUp-link {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.SignUp-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.SignUp-link a:hover {
+  text-decoration: underline;
+}
+/* Responsive Design */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .form {
+    width: 80%;
+    padding: 25px 35px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .form {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .form {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+}

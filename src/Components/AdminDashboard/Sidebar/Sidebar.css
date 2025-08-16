@@ -1,0 +1,36 @@
+
+/* Sidebar container */
+.sidebar {
+  width: 220px;
+  height: auto;
+  background-color: #2c3e50; /* Dark blue-gray background */
+  padding: 2opx;
+  box-sizing: border-box;
+  padding: 15px 15px;
+
+
+}
+
+/* Inner container for links */
+.sidebar-data {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for all links inside sidebar-data */
+.sidebar-data a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #34495e; /* Slightly lighter dark background */
+  transition: background-color 0.2s ease;
+  font-weight: 500;
+}
+
+/* Hover effect for links */
+.sidebar-data a:hover {
+  background-color: #1abc9c; /* Turquoise highlight */
+  color: white;
+}

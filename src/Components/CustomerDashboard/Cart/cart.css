@@ -1,0 +1,127 @@
+.cart-container {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.cart-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+  text-align: center;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+  background-color: #343a40;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.cart-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.quantity-buttons button {
+  padding: 6px 12px;
+  margin: 0 4px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quantity-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-button:hover {
+  background-color: #b02a37;
+}
+
+.cart-total {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.cart-total h3 {
+  font-size: 1.5rem;
+  color: #212529;
+}
+
+.checkout-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+/* 🔽 Responsive layout for mobile */
+@media screen and (max-width: 768px) {
+  .cart-table,
+  .cart-table thead,
+  .cart-table tbody,
+  .cart-table th,
+  .cart-table td,
+  .cart-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .cart-table thead {
+    display: none;
+  }
+
+  .cart-table tr {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+
+  .cart-table td {
+    text-align: left;
+    padding: 10px 0;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cart-total {
+    text-align: center;
+  }
+}

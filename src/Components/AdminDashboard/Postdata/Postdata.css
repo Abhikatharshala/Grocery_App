@@ -78,17 +78,17 @@ font-weight: bold;
  .card-details {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Very important: align text to left */
+  align-items: flex-start; 
   width: 100%;
 }
 
 .card p {
-  text-align: left;        /* Ensure text lines up from the start */
-  width: 100%;             /* Take full width of container */
+  text-align: left;       
+  width: 100%;             
   line-height: 1.4;
   font-size: 14px;
   color: #333;
-  word-break: break-word;  /* Prevent overflow issues */
+  word-break: break-word;  
 }
 
 .category{
@@ -128,4 +128,42 @@ font-weight: bold;
 
 .cardbtn button:hover {
   background-color: #218838;
+}
+
+/* Tablets (2 columns) */
+@media (max-width: 1024px) {
+  #cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobiles (1 column) */
+@media (max-width: 768px) {
+  #cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    flex-direction: column; /* Stack image and details */
+    align-items: center;
+    text-align: center;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+  }
+
+  .card-details {
+    align-items: center; /* Center details on mobile */
+    text-align: center;
+  }
+
+  .card-cp {
+    gap: 20px; /* Reduce gap */
+  }
+
+  .cardbtn {
+    width: 100%;
+    max-width: 100%;
+  }
 }

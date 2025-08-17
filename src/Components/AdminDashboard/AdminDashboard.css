@@ -48,4 +48,41 @@ html, body, #root {
 
 
 
+/* Media query for tablets and larger phones (up to 768px) */
+@media (max-width: 768px) {
+    /* Main layout stacks vertically */
+    .admin-layout {
+        flex-direction: column;
+    }
 
+    /* Sidebar transforms into a full-width horizontal nav bar */
+    .sidebar {
+        width: 100%;
+        height: auto; /* Height adjusts to content */
+        overflow-y: hidden; /* No scrolling for horizontal nav */
+        /*
+          You'll need a way to lay out your sidebar content horizontally.
+          If your links are in a container like `.sidebar-data`, add:
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        */
+    }
+
+    /* Main content takes full width */
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Media query for smaller mobile phones (up to 480px) */
+@media (max-width: 480px) {
+    /* Further padding and font size adjustments for small screens */
+    .content {
+        padding: 5px;
+    }
+
+    /* You can make other adjustments for specific elements here,
+       such as font sizes or button padding. */
+}

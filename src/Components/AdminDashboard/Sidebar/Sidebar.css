@@ -1,9 +1,9 @@
 
-/* Sidebar container */
+
 .sidebar {
   width: 220px;
   height: auto;
-  background-color: #2c3e50; /* Dark blue-gray background */
+  background-color: #2c3e50; 
   padding: 2opx;
   box-sizing: border-box;
   padding: 15px 15px;
@@ -11,26 +11,52 @@
 
 }
 
-/* Inner container for links */
 .sidebar-data {
   display: flex;
   flex-direction: column;
 }
 
-/* Style for all links inside sidebar-data */
+
 .sidebar-data a {
   color: white;
   text-decoration: none;
   padding: 12px 16px;
   margin-bottom: 10px;
   border-radius: 4px;
-  background-color: #34495e; /* Slightly lighter dark background */
+  background-color: #34495e; 
   transition: background-color 0.2s ease;
   font-weight: 500;
 }
 
-/* Hover effect for links */
+
 .sidebar-data a:hover {
-  background-color: #1abc9c; /* Turquoise highlight */
+  background-color: #1abc9c; 
   color: white;
+} 
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%; /* Full width to act as a horizontal bar */
+    height: auto;
+    padding: 10px; /* Adjust padding for mobile */
+    /* Remove padding-bottom to make the nav bar more compact */
+    padding-bottom: 0; 
+  }
+
+  .sidebar-data {
+    flex-direction: row; /* Arranges the links horizontally */
+    justify-content: space-around; /* Distributes links evenly */
+    align-items: center; /* Vertically centers the links */
+    gap: 10px; /* Add a small gap between the links */
+  }
+
+  .sidebar-data a {
+    flex: 1; /* Makes each link take up an equal amount of space */
+    text-align: center; /* Centers the text within each link */
+    padding: 10px 0; /* Adjust vertical padding */
+    margin-bottom: 0; /* Remove bottom margin for the horizontal layout */
+  }
 }

@@ -46,7 +46,7 @@ const Login = () => {
             <label>Email</label>
             <input
               type="email"
-              placeholder="Enter email"
+              placeholder="Enter Email"
               id="email"
               name="email"
               onChange={(e) =>
@@ -57,7 +57,7 @@ const Login = () => {
             <label>password</label>
             <input
               type="password"
-              placeholder="Enter name"
+              placeholder="Enter password"
               id="password"
               name="password"
               onChange={(e) =>
